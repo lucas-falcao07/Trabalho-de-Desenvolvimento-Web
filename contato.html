@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: auto;
+            padding: 0;
+            width: 100%;
+            max-width: auto;
+        }
+
+        header h2 {
+            background-color: #363636;
+            color: white;
+            height: 47px;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 16px;
+            padding-top: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+
+        .menu ul {
+            padding: 0px;
+            margin: 0px;
+            background-color: #c4c3c3;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .menu ul li {
+            display: inline;
+        }
+
+        .menu ul li a {
+            padding: 2px 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: 19px;
+        }
+
+        .menu ul li a:hover {
+            background-color: #363636;
+            color: white;
+        }
+
+        .conteudo {
+            text-align: justify;
+            width: 55%;
+            margin: auto;
+            margin-top: 16px;
+            font-size: 18px;
+        }
+        table {
+            margin: auto;
+            margin-top: 10px;
+            padding: 0;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Lucas Francisco Falcão</h2>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" placeholder="Digite seu nome"></td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" placeholder="Digite seu email"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite sua mensagem:</label></th>
+                <td><textarea name="msg" rows="3" cols="30" placeholder="Digite sua mensagem..."></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
